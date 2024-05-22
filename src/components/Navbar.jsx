@@ -15,7 +15,7 @@ const toggleMenu = () =>{
   <div>
     <header>
       <div className="navbar">
-        <div  className="logo"><a href="/">bio</a></div>
+        <div  className="logo"><a href="/">LOGO</a></div>
         <ul className="links">
           <li><a href="/">Anasayfa</a></li>
           <li><a href="/about">Hakkımızda</a></li>
