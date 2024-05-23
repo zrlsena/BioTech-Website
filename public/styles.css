@@ -15,19 +15,21 @@ body{
   background-size: cover;
   background-position: center;
 
-  
-    background-color: var(--sk-body-background-color, #fff);
-    color: var(--sk-body-text-color, #1d1d1f);
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.022em;
-    line-height: 1.47059;
 }
 
-h1, h2, h3, h4{
+h1{
   color: #1D1D1F;
+  font-size: 4em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+h2, h3, h4{
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  color: #1D1D1F;
+
 }
 
 p,li,a{
@@ -48,17 +50,16 @@ a:hover {
 }
 
 /*-----------------Team-start-----------------*/
+
 .team-section{
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   padding: 80px 100px;
   color: #fff;
+  margin-top: 0 auto;
 }
-.team-title h1{
-  font-size: 4em;
-  margin-bottom: 50px;
-}
+
 
 .team-cards{
   display: flex; 
@@ -186,10 +187,6 @@ section {
   flex-direction: column;
 }
 
-.main-title{
-  font-size: 4em;
-  margin-bottom: 50px;
-}
 
 .content{
   position: relative;

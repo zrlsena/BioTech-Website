@@ -24,11 +24,11 @@ function About() {
     <script src="https://unpkg.com/scrollreveal"></script>
     <section className="sec-01">
       <div className="container">
-        <h2 className="main-title">Our Mission & Vision</h2>
+        <h1 className="main-title">Our Mission & Vision</h1>
 
     <div className="content">
         <div className="image">
-          <img src="./images/2.jpg" alt=""/>
+          <img src="./images/7.jpg" alt=""/>
           </div>
             <div className="text-box">
               <h3>Our Mission</h3>
@@ -49,7 +49,7 @@ function About() {
               <img src="/images/5.jpg" alt=""/>
             </div>
             <div className="info">
-              <h4 className="info-title">Our Vision</h4>
+              <h3 className="info-title">Our Vision</h3>
               <ul>
                 <li>Reducing antibiotic resistance by treating various diseases, especially biofilm infections with nanoparticles.</li>
                 <li>Using nanoparticles to facilitate applications in agriculture and other sectors making nanoparticle production efficient and easy.</li>
