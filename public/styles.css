@@ -52,29 +52,36 @@ a:hover {
 /*-----------------HOME-start-----------------*/
 .home{
   position: relative;
-  align-items: center;
   
 }
+
 .home h1{
   position: absolute;
   z-index: 100;
-  top: 2em;
-  text-align: center;
-  align-items: center; 
-  margin-right: 0px;
-  transform: translate(25%, 0);
-  
+  top: 1em;
+  text-align: left;
+  align-items: left; 
+  transform: translate(2%, 0);
 }
+
+.home .fcontent{
+  position: absolute;
+  transform: translate(2%, 0);
+  z-index: 98;
+  text-align: left;
+  align-items: left; 
+  top: 20em;
+}
+
 .home img{
-  
   height: 50%;
   width: 50%;
-  z-index: 99;
+  z-index: 98;
   top: 20px;
-  
   transform: translate(120%, 0);
-  
 }
+
+
 
 
 /*-----------------HOME-end-----------------*/
