@@ -25,14 +25,14 @@ function Team() {
          
           <div className="team-card">
             <div className="image">
-              <img src="images/team.jpg"/>
+              <img src="images/p1.jpg"/>
             </div>
             <div className="team-detail">
-              <h3>Nisa</h3>
-              <p>Proje Ortağı</p>
+              <h3>Person1</h3>
+              <p>Akademik Danışman</p>
               <div className="p-icons">
-                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
-                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
+                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
+                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
               </div>
             </div>
             </div>
@@ -41,14 +41,14 @@ function Team() {
           
             <div className="team-card">
             <div className="image">
-              <img src="images/team.jpg"/>
+              <img src="images/p2.jpg"/>
             </div>
             <div className="team-detail">
-              <h3>Nisa</h3>
-              <p>Proje Ortağı</p>
+              <h3>Person2</h3>
+              <p>Proje Yürütücüsü</p>
               <div className="p-icons">
-                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
-                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
+                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
+                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
               </div>
             </div>
             </div>
@@ -57,14 +57,14 @@ function Team() {
           
             <div className="team-card">
             <div className="image">
-              <img src="images/team.jpg"/>
+              <img src="images/p3.jpg"/>
             </div>
             <div className="team-detail">
-              <h3>Nisa</h3>
+              <h3>Person3</h3>
               <p>Proje Ortağı</p>
               <div className="p-icons">
-                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
-                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
+                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
+                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
               </div>
             </div>
             </div>
@@ -72,14 +72,14 @@ function Team() {
 
             <div className="team-card">
             <div className="image">
-              <img src="images/team.jpg"/>
+              <img src="images/p4.jpg"/>
             </div>
             <div className="team-detail">
-              <h3>Nisa</h3>
+              <h3>Person4</h3>
               <p>Proje Ortağı</p>
               <div className="p-icons">
-                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
-                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada' color='#e040fb' ></box-icon></a>
+                <a href="mailto:nisatan@yahoo.com"><box-icon name='gmail' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
+                <a href="https://www.linkedin.com/in/nisa-tan-6086171a2/"><box-icon name='linkedin' type='logo' animation='tada-hover' color='#0071e3' ></box-icon></a>
               </div>
             </div>
             </div>
