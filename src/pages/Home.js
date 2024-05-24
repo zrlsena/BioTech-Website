@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScrollReveal from 'scrollreveal';
+import Footer from "../components/Footer";
 
 function Home() {
 
@@ -40,6 +41,7 @@ function Home() {
           </div>
         </section>
       </div>
+      <Footer/>
     </div>
 
   );

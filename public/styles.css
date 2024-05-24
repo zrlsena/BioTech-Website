@@ -497,14 +497,71 @@ header {
 
 /*-----------------NAVBAR-end-----------------*/
 
-footer {
-  position: absolute;
+/*-----------------CONTACT-start-----------------*/
+
+.page__title {
   text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+  margin-top: 15px;
 }
 
-footer p {
-  color: #ccc;
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 25px;
+  border-radius: 7px;
 }
+
+.contact__form input, .contact__form textarea {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  resize: vertical;
+  outline: none;
+  box-sizing: content-box;
+  border-bottom: solid 3px transparent;
+  margin: 5px 0;
+}
+
+.contact__form label {
+  font-weight: 600;
+}
+
+.contact__form input:focus, .contact__form textarea:focus {
+  border-bottom: solid 3px rgb(0, 119, 255);
+}
+
+/*-----------------CONTACT-end-----------------*/
+
+footer {
+ background-color: #1D1D1F;
+ opacity: 0.5;
+color: #86868B;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+padding: 25px 0;
+
+position: fixed;
+bottom: 0;
+width: 100%;
+z-index: 222;
+
+}
+footer .btn {
+  margin-right: 70rem;
+}
+footer a{
+  margin-inline: 1rem;
+}
+
+footer:hover{
+  background-color: #1D1D1F;
+  color: #F5F5F7;
+  opacity: 1;
+}
+

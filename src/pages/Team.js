@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import 'boxicons';
 import ScrollReveal from 'scrollreveal';
+import Footer from "../components/Footer";
 
 function Team() {
 
@@ -84,6 +85,7 @@ function Team() {
 
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
