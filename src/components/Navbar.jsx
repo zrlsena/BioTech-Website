@@ -14,15 +14,17 @@ const toggleMenu = () =>{
   return (
   <div>
     <header>
+      
       <div className="navbar">
         <div  className="logo"><a href="/">LOGO</a></div>
+       
         <ul className="links">
           <li><a href="/">Anasayfa</a></li>
           <li><a href="/about">Hakkımızda</a></li>
           <li><a href="/team">Ekibimiz</a></li>
         </ul>
-        <a href="https://www.instagram.com/nanowiss.co?igsh=c2wzaHN1azU5Nm80" className="action-btn" >Contact</a>
-
+        <a href="https://www.instagram.com/zrlsena?igsh=aHQ5OGUwbzJxa2h4&utm_source=qr" className="action-btn" >Contact</a>
+        
         <div className="toggle_btn">
         <i class={isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} onClick={toggleMenu}></i>
         {isOpen && (
@@ -30,7 +32,7 @@ const toggleMenu = () =>{
           <li ><a href="/">Anasayfa</a></li>
           <li ><a href="/about">Hakkımızda</a></li>
           <li ><a href="/team">Ekibimiz</a></li>
-          <li><a href="https://www.instagram.com/nanowiss.co?igsh=c2wzaHN1azU5Nm80" class="action-btn" >Contact</a></li>
+          <li><a href="https://www.instagram.com/zrlsena?igsh=aHQ5OGUwbzJxa2h4&utm_source=qr" class="action-btn" >Contact</a></li>
           
         </div>
         )}

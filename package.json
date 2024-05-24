@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.24.6",
     "swiper": "^11.1.3"
   }
 }
