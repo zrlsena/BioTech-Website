@@ -5,21 +5,18 @@ import About from '../pages/About';
 import Team from '../pages/Team';
 
 function App() {
-  
+
   return (
-    
+
     <body>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/team' element={<Team/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/team' element={<Team />} />
         </Routes>
       </BrowserRouter>
-
-      
-    
-  </body>
+    </body>
   );
 }
 
