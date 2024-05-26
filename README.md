@@ -12,3 +12,6 @@ Dark mode
 
 ![Ekran Görüntüsü (57)](https://github.com/zrlsena/BioTech-Website/assets/96860750/3856ec4e-87bc-45da-b7cf-539c46f9478a)
 
+Mobile 
+
+![Ekran Görüntüsü (58)](https://github.com/zrlsena/BioTech-Website/assets/96860750/02d4fb73-fd7b-418b-995d-279bc8610fc0)
