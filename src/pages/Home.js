@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div>
-      <body id="atesbody" className="body">
+      <body id="body" className="body">
         <Navbar />
         <div>
           <section>

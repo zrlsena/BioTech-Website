@@ -21,7 +21,7 @@ function About() {
   return (
     <div>
       
-      <body id="atesbody" className="body">
+      <body id="body" className="body">
       <Navbar />
         <script src="https://unpkg.com/scrollreveal"></script>
         <section className="sec-01">

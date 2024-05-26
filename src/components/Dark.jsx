@@ -6,10 +6,8 @@ function Dark() {
  
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-    //  document.getElementById("atesbody").style.backgroundColor = isDarkMode ? "#F5F5F7" : "#1D1D1F" ;;
-    // console.log(document.getElementById("atesbody").className)
-    document.getElementById("atesbody").className = isDarkMode ? "body" : "body dark"
-    localStorage.setItem('body dark', isDarkMode);
+    document.getElementById("body").className = isDarkMode ? "body" : "body dark"
+    
   };
 
 

@@ -13,7 +13,7 @@ function Team() {
 
   return (
     <div>
-      <body id="atesbody" className="body">
+      <body id="body" className="body">
       <Navbar />
 
       <section className="team-section">
