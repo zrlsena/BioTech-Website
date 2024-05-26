@@ -1,5 +1,6 @@
 import React, {useState}from "react";
 import { Link } from "react-router-dom";
+import Dark from './Dark';
 
 
 function Navbar() {
@@ -13,11 +14,12 @@ const toggleMenu = () =>{
 
   return (
   <div>
+    <body>
     <header>
-      
+    
       <div className="navbar">
         <div  className="logo"><a href="/">LOGO</a></div>
-       
+        
         <ul className="links">
           <li><a href="/">Anasayfa</a></li>
           <li><a href="/about">Hakkımızda</a></li>
@@ -39,8 +41,10 @@ const toggleMenu = () =>{
         </div>
       </div>
 
+      <Dark/>
       
     </header>
+    </body>
     </div>
   );
 }

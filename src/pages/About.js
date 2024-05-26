@@ -20,8 +20,9 @@ function About() {
 
   return (
     <div>
+      
+      <body id="atesbody" className="body">
       <Navbar />
-      <body>
         <script src="https://unpkg.com/scrollreveal"></script>
         <section className="sec-01">
           <div className="container">
