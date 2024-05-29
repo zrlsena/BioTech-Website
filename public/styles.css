@@ -34,7 +34,7 @@ h4 {
 p,
 li,
 a {
-  color: #86868B;
+  color: #616165;
 }
 
 li {
@@ -51,28 +51,91 @@ a:hover {
 }
 
 /*-----------------HOME-start-----------------*/
-.home {
-  position: relative;
 
-}
 
-.home h1 {
+.home h1{
   position: absolute;
   z-index: 100;
-  top: 1em;
+  top: 3em;
   text-align: left;
   align-items: left;
   transform: translate(1.5%, 0);
 }
-
 .home .fcontent {
-  position: absolute;
-  transform: translate(2%, 0);
   z-index: 98;
   text-align: left;
   align-items: left;
-  top: 20em;
+  top: 50em;
+  background-color: #1D1D1F;
+  padding: 50px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  justify-content: space-between;
 }
+.home .fcontent h3{
+  color: #F5F5F7;
+}
+
+.home .fcontent2 {
+  position: relative;
+  top: 30em;
+  width: 1150px;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-image: url("images/micro.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -5px;
+  background-position-x: center;
+  
+}
+.home .fcontent2 .image2 {
+  grid-template-columns: subgrid;
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  padding: 10px;
+  overflow: hidden;
+  margin-left: 170px;
+  margin-top: 8em;
+}
+.home .fcontent2 .image2 img {
+  width: 170px;
+  height: 170px;
+  margin: 15px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 111;
+  transition: transform 1s ease;
+
+}
+
+.home .fcontent2 .image2 img:hover {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 999;
+  transition: transform 1s ease;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 1);
+
+
+}
+.home.fcontent2 .pa {
+  transform: translate(50px, 50px);
+  height: 40%;
+  text-align: center;
+  border: 2px solid #86868B;
+padding: 30px;
+border-radius: 20px;
+margin-top: 8em;
+backdrop-filter: blur(40px);
+}
+
 
 .home .image {
   height: 50%;
@@ -80,12 +143,11 @@ a:hover {
   z-index: 98;
   top: 20px;
   transform: translate(120%, 0);
-
 }
-
 .home .image:hover {
   transform: translate(100%, 0);
 }
+
 
 @media (max-width: 925px) {
   .home .fcontent {
@@ -95,7 +157,6 @@ a:hover {
     align-items: left;
     top: 1em;
   }
-
   .home h1 {
     position: relative;
     z-index: 100;
@@ -103,10 +164,7 @@ a:hover {
     text-align: left;
     align-items: left;
     transform: left;
-
-
   }
-
   .home .image {
     height: 50%;
     width: 70%;
@@ -114,11 +172,8 @@ a:hover {
     top: 10em;
     transform: translate(80%, 0);
     position: absolute;
-
   }
-
 }
-
 
 
 /*-----------------HOME-end-----------------*/
@@ -157,12 +212,14 @@ a:hover {
   padding: 40px;
   background: #FFFFFF;
   /*border: 0px 4px 10px rgba(92, 93, 96, 0.48);*/
-  
+
   backdrop-filter: blur(20px);
   z-index: 100;
   opacity: 0.7;
-  border: 1px solid #ccc; /* Regular border */
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9); /* Inner shadow */
+  border: 1px solid #ccc;
+  /* Regular border */
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+  /* Inner shadow */
   transition: .3s ease;
 }
 
@@ -245,13 +302,13 @@ a:hover {
 @media(max-width : 576px) {
   .team-cards {
     flex-wrap: wrap;
-    
+
   }
 
   .team-card {
     width: 100%;
     margin: 20px;
-    
+
   }
 
   .team-card img {
@@ -350,7 +407,7 @@ section {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, .48);
   border-radius: 20px;
   opacity: 0.7;
-  
+
 
 }
 
@@ -510,8 +567,9 @@ header {
 
 #mode.active .indicator {
   background-color: #86868B;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
   transition: 1s ease;
+  
 }
 
 #mode .indicator {
@@ -535,9 +593,10 @@ body .dark {
   background-position: center;
   transition: background-color 0.3s;
 
-  .team-detail h3{
+  .team-detail h3 {
     color: #000000;
   }
+
   h1 {
     color: #F5F5F7;
     font-size: 4em;
@@ -556,8 +615,7 @@ body .dark {
   h2,
   h4,
   a:hover,
-  .home .fcontent h3
-   {
+  .home .fcontent h3 {
     color: #f5f5f7;
   }
 
