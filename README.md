@@ -1,4 +1,10 @@
-![Ekran Görüntüsü (52)](https://github.com/zrlsena/BioTech-Website/assets/96860750/a70cea98-3ac2-44ae-bc38-e1311e5ed6b5)
+
+![Ekran Görüntüsü (77)](https://github.com/zrlsena/BioTech-Website/assets/96860750/dab2d038-1c76-4524-a9e0-86647203de38)
+
+![Ekran Görüntüsü (78)](https://github.com/zrlsena/BioTech-Website/assets/96860750/0c88ef6b-6dbd-4205-a5f3-a8ce749da80f)
+
+![Ekran Görüntüsü (79)](https://github.com/zrlsena/BioTech-Website/assets/96860750/6b6bbf9b-7fb7-40f0-909f-ce143e6874cf)
+
 
 ![Ekran Görüntüsü (54)](https://github.com/zrlsena/BioTech-Website/assets/96860750/5219014e-61f2-4db5-8401-86429d829737)
 
