@@ -20,6 +20,7 @@ h1 {
   font-size: 4em;
   margin-bottom: 1.5em;
   margin-top: 1em;
+  font-weight: bold;
 }
 
 h2,
@@ -53,7 +54,7 @@ a:hover {
 /*-----------------HOME-start-----------------*/
 
 
-.home h1{
+.home h1 {
   position: absolute;
   z-index: 100;
   top: 3em;
@@ -61,6 +62,7 @@ a:hover {
   align-items: left;
   transform: translate(1.5%, 0);
 }
+
 .home .fcontent {
   z-index: 98;
   text-align: left;
@@ -73,13 +75,14 @@ a:hover {
   position: absolute;
   justify-content: space-between;
 }
-.home .fcontent h3{
+
+.home .fcontent h3 {
   color: #F5F5F7;
 }
 
 .home .fcontent2 {
   position: relative;
-  top: 30em;
+  top: 25em;
   width: 1150px;
   display: flex;
   grid-template-columns: 1fr 1fr;
@@ -89,8 +92,9 @@ a:hover {
   background-size: contain;
   background-position-y: -5px;
   background-position-x: center;
-  
+
 }
+
 .home .fcontent2 .image2 {
   grid-template-columns: subgrid;
   position: relative;
@@ -98,9 +102,10 @@ a:hover {
   height: 700px;
   padding: 10px;
   overflow: hidden;
-  margin-left: 170px;
-  margin-top: 8em;
+  margin-left: 25%;
+  margin-top: 13em;
 }
+
 .home .fcontent2 .image2 img {
   width: 170px;
   height: 170px;
@@ -125,15 +130,18 @@ a:hover {
 
 
 }
+
 .home.fcontent2 .pa {
   transform: translate(50px, 50px);
   height: 40%;
+  font-size: 1.2em;
   text-align: center;
   border: 2px solid #86868B;
-padding: 30px;
-border-radius: 20px;
-margin-top: 8em;
-backdrop-filter: blur(40px);
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 8.2em;
+  backdrop-filter: blur(40px);
+  padding-bottom: 2.5em;
 }
 
 
@@ -144,6 +152,7 @@ backdrop-filter: blur(40px);
   top: 20px;
   transform: translate(120%, 0);
 }
+
 .home .image:hover {
   transform: translate(100%, 0);
 }
@@ -157,6 +166,7 @@ backdrop-filter: blur(40px);
     align-items: left;
     top: 1em;
   }
+
   .home h1 {
     position: relative;
     z-index: 100;
@@ -165,6 +175,7 @@ backdrop-filter: blur(40px);
     align-items: left;
     transform: left;
   }
+
   .home .image {
     height: 50%;
     width: 70%;
@@ -569,7 +580,7 @@ header {
   background-color: #86868B;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
   transition: 1s ease;
-  
+
 }
 
 #mode .indicator {

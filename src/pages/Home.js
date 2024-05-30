@@ -30,10 +30,10 @@ function Home() {
                 <div className="home fcontent">
                   <h3>NanoWISS</h3>
                   <ul>
-                    <li>nanoWISS is a deep technology and social impact startup that aims to faciliate applications in areas such as <br />
-                      treatment and agriculture that produce nanoparticles that set out with the ideal of treating<br /> biofilm bacterial
-                      infections in cystic fibrosis disease and allowing patients <br /> to breathe deeper and aims to make nanoparticle production
-                      <br /> efficient and to raise awareness of rare diseases.</li>
+                    <li>nanoWISS is a deep technology and social impact startup that aims to faciliate applications in areas such as 
+                      treatment and agriculture that produce<br /> nanoparticles that set out with the ideal of treating biofilm bacterial
+                      infections in cystic fibrosis disease and allowing patients to breathe deeper<br /> and aims to make nanoparticle production
+                       efficient and to raise awareness of rare diseases.</li>
 
                   </ul>
                 </div>
