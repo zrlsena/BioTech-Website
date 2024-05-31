@@ -21,9 +21,9 @@ const toggleMenu = () =>{
         <div  className="logo"><a href="/">LOGO</a></div>
         
         <ul className="links">
-          <li><a href="/">Anasayfa</a></li>
-          <li><a href="/about">Hakkımızda</a></li>
-          <li><a href="/team">Ekibimiz</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">Vision</a></li>
+          <li><a href="/#team-section">Team</a></li>
         </ul>
         <a href="https://www.instagram.com/zrlsena?igsh=aHQ5OGUwbzJxa2h4&utm_source=qr" className="action-btn" >Contact</a>
         
@@ -33,7 +33,7 @@ const toggleMenu = () =>{
         <div className="dropdown-menu" >
           <li ><a href="/">Anasayfa</a></li>
           <li ><a href="/about">Hakkımızda</a></li>
-          <li ><a href="/team">Ekibimiz</a></li>
+          <li ><a href="/#team-section">Ekibimiz</a></li>
           <li><a href="https://www.instagram.com/zrlsena?igsh=aHQ5OGUwbzJxa2h4&utm_source=qr" class="action-btn" >Contact</a></li>
           
         </div>

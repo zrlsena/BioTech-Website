@@ -1,24 +1,18 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import 'boxicons';
-import ScrollReveal from 'scrollreveal';
 import Footer from "../components/Footer";
 
 function Team() {
-
-  useEffect(() => {
-    ScrollReveal({ reset: true, distance: '60px', duration: 2500, delay: 400 });
-    ScrollReveal().reveal('.team-section', { delay: 500, origin: 'left' });
-  }, []);
 
   return (
     <div>
       <body id="body" className="body">
       <Navbar />
 
-      <section className="team-section">
+      <section  id="team-section" className="team-section">
         <div className="team-title">
-          <h1>Our Team</h1>
+          <h1>THE TEAM</h1>
         </div>
 
         <div className="team-cards">
