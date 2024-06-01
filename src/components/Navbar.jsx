@@ -22,8 +22,8 @@ const toggleMenu = () =>{
         
         <ul className="links">
           <li><a href="/">Home</a></li>
-          <li><a href="/about">Vision</a></li>
           <li><a href="/#team-section">Team</a></li>
+          <li><a href="/about">Vision</a></li>
         </ul>
         <a href="https://www.instagram.com/zrlsena?igsh=aHQ5OGUwbzJxa2h4&utm_source=qr" className="action-btn" >Contact</a>
         

@@ -26,8 +26,8 @@ function Home() {
               <h1 className="main-title">Next Generation <br /> NanoBioTech Solutions</h1>
               <div className="ul1">
               <ul>
-                    <li>nanoWISS is a deep technology and social impact startup that aims to faciliate applications<br /> in areas such as
-                      treatment and agriculture that produce nanoparticles that set out with the ideal of<br /> treating biofilm bacterial
+                    <li>nanoWISS is a deep technology and social impact<br /> startup that aims to faciliate applications in areas such as
+                      treatment<br /> and agriculture that produce nanoparticles that set out <br />with the ideal of treating biofilm bacterial
                       infections in cystic fibrosis disease </li>
 
               </ul>
