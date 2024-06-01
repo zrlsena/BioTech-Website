@@ -1,4 +1,1 @@
-
-
-https://github.com/zrlsena/BioTech-Website/assets/96860750/0baefe1f-94ac-4f9b-93fe-aadb988c85c1
-
+https://github.com/zrlsena/BioTech-Website/assets/96860750/f5a3b981-fef7-4b50-948d-1e435da03e45
